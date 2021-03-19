@@ -1,0 +1,14 @@
+Q: What is a data pack?
+
+A: A pack of data. :)
+
+Data packs were introduced in Minecraft snapshot version 17w43a, a pre-release for version 1.13.
+It was a new and simplier way of allowing players to customize and edit Minecraft's default settings and..., data. :)
+
+Data packs do not contain java files and require no special apps to create or edit files. A simple word editing app like Notepad will work or the fancier Notepad++ can be used.
+
+Most of the files inside data packs will be easy to read json files which contain data for just about everything in the game and for the game. 
+
+Also, custom mcfunction files, which in many cases are even easier to read than json files, will be present most of the time.
+
+Custom structure nbt files can be used in data packs as well.
