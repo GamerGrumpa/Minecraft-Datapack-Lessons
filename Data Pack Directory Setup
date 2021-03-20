@@ -1,0 +1,96 @@
+Q: How do I make a data pack in Windows 10?
+
+A: Open a pack and fill it with data. Er..., no?
+
+First, you need File Explorer set up so that it shows file extensions.
+
+Preliminary Steps:
+
+A. Open the File Explorer app.
+
+B. Very top left corner are 4 tabs. File, Home, Share, View. Click the View tab.
+
+C. In the panel below the tabs, the panel will have 4 sections. In the last section of this panel, check the box where it says "File name extensions.
+
+D. All done. You can now close the File Explorer app.
+
+Main Steps:
+
+Note: All we are doing here is creating the directory setup. Folders inside folders and naming them. 
+There is 1 needed text file that will need to be created and renamed. 
+Depending upon your needs and complexity of your data pack, more text files may need creating and renaming. 
+However, those will all be covered in other lessons to keep this lesson as simple as possible.
+
+Below is a diagram of the required and optional folders and their placements.
+
+( ) <-- Denotes a folder with name inside
+
+(Data Pack Name)                - Required. Customized name of your data pack in proper grammer.
+  pack.mcmeta                   - Required. Discussed in another lesson.
+  pack.png                      - Optional. Discussed in another lesson.
+  (data)                        - Required
+    (nameSpace)                 - Required. Customized name. Short, no caps, no spaces.
+      (advancement)             - Optional. Where custom advancement json files go.
+      (function)                - Optional. Where custom mcfunction files go. The heart of a data pack.
+      (loot_table)              - Optional. Where custom loot table json files go.
+      (predicate)               - Optional. Where custom predicate json files go.
+      (recipe)                  - Optional. Where custom recipe json files go.
+      (structure)               - Optional. Where custom structure nbt files go.
+      (tags)                    - Optional.
+        (blocks)                - Optional. Where custom tag json files for blocks go.
+        (entity_types)          - Optional. Where custom tag json files for entities go.
+        (fluids)                - Optional. Where custom tag json files for fluids go.
+        (functions)             - Optional. Where custom tag json for functions go.
+        (items)                 - Optional. Where custon tag json files for items go.
+      (dimension type)          - Optional.
+      (dimension)               - Optional.
+      (worldgen)                - Optional.
+        (biome)                 - Optional.
+        (configured_carver)     - Optional.
+        (configured_feature)    - Optional.
+        (configured_structure_feature) - Optional.
+        (configured_surface_builder) - Optional.
+        (noise_settings)        - Optional.
+        (processor_list)        - Optional.
+        (template_pool)         - Optional.
+      (item_modifier)           - Optional.
+    (minecraft)                 - Highly Recommended.
+      (advancements)            - Optional. Where modified advancement json files go.
+        (adventure)             - Optional. Where modified advancement json files go for the adventure advancements.
+        (end)                   - Optional. Where modified advancement json files go for the end advancements.
+        (husbandry)             - Optional. Where modified advancement json files go for the husbandry advancements.
+        (nether)                - Optional. Where modified advancement json files go for the nether advancements.
+        (recipes)               - Optional.
+          (brewing)             - Optional. Where modified advancement json files go for brewing advancements.
+          (building_blocks)     - Optional. Where modified advancement json files go for building block advancements.
+          (combat)              - Optional. Where modified advancement json files go for combat advancements.
+          (decorations)         - Optional. Where modified advancement json files go for decoration advancements.
+          (food)                - Optional. Where modified advancement json files go for food advancements.
+          (misc)                - Optional. Where modified advancement json files go for miscellaneous advancements.
+          (redstone)            - Optional. Where modified advancement json files go for redstone advancements.
+          (tools)               - Optional. Where modified advancement json files go for tool advancements.
+          (transportation)      - Optional. Where modified advancement json files go for transportation advancements.
+        (story)                 - Optional. Where modified advancement json files go for the story advancements.
+      (loot_tables)             - Optional.
+        (blocks)                - Optional. Where modified loot table json files go for blocks.
+        (chests)                - Optional. Where modified loot table json files go for chests.
+          (village)             - Optional. Where modified loot table json files go for village chests.
+        (entities)              - Optional. Where modified loot table json files go for entities.
+          (sheep)               - Optional. Where modified loot table json files go for sheep.
+        (game_play)             - Optional. Where modified loot table json files go for game play.
+          (fishing)             - Optional. Where modified loot table json files go for fishing.
+          (hero_of_the_village) - Optional. Where modified loot table json files go for hero of the village.
+      (recipes)                 - Optional. Where modified recipe json files go.
+      (structures)              - Optional.
+        (bastion)               - Optional.
+          (blocks)              - Optional. Where modified structure nbt files go for bastion blocks.
+          (bridge)              - Optional.
+            (bridge_pieces)     - Optional. Where modified structure nbt files go for bastion bridge pieces.
+            (connectors)        - Optional. Where modified structure nbt files go for bastion bridge connectors.
+            (legs)              - Optional. Where modified structure nbt files go for bastion bridge legs.
+            (rampart_plates)    - Optional. Where modified structure nbt files go for bastion bridge rampart plates.
+            (ramparts)          - Optional. Where modified structure nbt files go for bastion bridge ramparts.
+            (starting_pieces)   - Optional. Where modified structure nbt files go for bastion bridge starting pieces.
+            (walls)             - Optional. Where modified structure nbt files go for bastion bridge walls.
+          (hoglin_stable)       - Optional.
+            ~ incomplete ~ ~ ~ To be continued ~ ~ ~
